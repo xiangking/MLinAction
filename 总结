@@ -1,0 +1,12 @@
+
+
+
+使用set（）很多时候是为了去除数组中相同的元素
+统一说明：标签，也是目标变量
+对于多维数组而已，[,]  逗号前是行的表示方法，逗号后是列
+多维数组用[：]方法取值时，比如0：4取值时，4是取不到的
+多维数组当按行，或列取取出来是一维时，都会变成普通的一维数组
+
+
+错误处理： 1. TypeError: unhashable type: 'list'  解决方法：没有加np.mat或者np.array
+          2. list indices must be integers, not tuple
